@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e # exit when error
+#set -e # exit when error
 
 rm -rf ./netlify-dist
 mkdir -p ./netlify-dist/examples

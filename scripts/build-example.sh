@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e # exit when error
+#set -e # exit when error
 
 if [ "$SKIP_PACKAGE_BUILD" == "true" ]; then
   echo "Skipping package build..."

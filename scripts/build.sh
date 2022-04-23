@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e # exit when error
+#set -e # exit when error
 
 # clean dist folder
 rm -rf dist

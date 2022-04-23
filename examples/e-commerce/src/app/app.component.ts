@@ -7,9 +7,10 @@ import algoliasearch from 'algoliasearch/lite';
 })
 export class AppComponent implements AfterViewInit {
   config = {
-    searchClient: algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76'),
-    indexName: 'instant_search',
-    routing: true,
+    //searchClient: algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76'),
+    searchClient: algoliasearch('jfk-search-service-w2a6dt7sodehi.search.windows.net', '5D2D2D0B066FF2AAA832B2B361DB9A69'),
+    indexName: 'jfkindex',
+    routing: false,
   };
   resultsContainer = undefined;
   header = undefined;
